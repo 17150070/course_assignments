@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+
+}
+.header{
+    width: 100%;
+    box-sizing: border-box;
+}
+.menu{
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center; /*размещаем по центру*/
+    justify-content: space-between;
+}
+.nav{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.mycompany{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: #05A88D;
+}
+.link{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.link:hover{
+    color: #05A88D;;
+}
+.authorization{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#sign-up{
+    border: 1px solid #05A88D;
+    border-radius: 3px;
+    color: #05A88D;
+    padding:12.5px 21.5px ;
+}
+#login{
+    color: #05A88D;
+    padding:69.5px 70.5px ;
+}

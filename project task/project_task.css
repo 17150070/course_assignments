@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding: 0 350px;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between; /*раскидываем логотип и меню по разным краям*/
+    align-items: center; /*размещаем по центру*/
+}
+.menu{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center; /*размещаем по центру меню*/
+}
+.logo{
+    color: #000000;
+    font-size: 40px;
+    text-decoration: none;
+}
+.link{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.link:hover{
+    color: rgb(114, 173, 240);
+}
+.text-coffee{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+}
+.image-coffee{
+    width: 1040px;
+    height: 622px;
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+.story-wrapper{
+    width: 1040px;
+    display: flex;
+    align-content: center;
+    margin: auto;
+    align-items: center;
+}
+.title-story{
+    text-align: center;
+    margin: 40px 0;
+}
+.image-coffee-2{
+    width: 280px;
+    height: 200px;
+}
+.story-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 40px;
+}
+.blog{
+    /*margin: 40px 0;*/
+    background: #EFEFEF;
+    width: 1040px;
+    height: 550px;
+    display: block;
+    margin: 40px auto 0 ;
+    padding: 0 0 40px 0;
+}
+.title-blog{
+    padding:20px 0;
+    text-align: center;
+
+}
+.blog-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-wrapper-contents{
+    background: #FFFFFF;
+    width: 265px;
+    height: 374px;
+    padding: 20px 20px 46px;
+}
+.blog-header{
+     padding-bottom: 24px;
+ }
+.blog-img{
+    width: 265px;
+    padding-bottom: 24px;
+}
+.blog-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+#footer{
+    background: #817070;
+    height: 337px;
+    width: 1040px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#h1-footer{
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 28px;
+}
+#input-footer{
+    width: 300px;
+    height: 55px;
+    text-align: center;
+    color: #817070;
+    margin-bottom: 28px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer-button{
+    color:#817070;
+    background: #FFFFFF;
+    width: 129px;
+    height: 55px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+}
